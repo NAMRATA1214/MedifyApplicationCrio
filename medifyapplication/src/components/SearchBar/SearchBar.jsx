@@ -40,9 +40,7 @@ export default function SearchBar({ list, filterList }) {
           startIcon={<SearchIcon />}
           sx={{ py: "15px", px: 8, flexShrink: 0 }}
           disableElevation
-        >
-          Search
-        </Button>
+        >Search</Button>
       </Stack>
     </form>
   );
